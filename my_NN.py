@@ -393,4 +393,3 @@ n_nodes = [5,3,4]
 # learning method for the weights of our s
 w = NN(train_data, num_samples, nn_iter, step_size, n_hidden, n_output, n_nodes)
 test(input_setup(input), num_samples, w, n_hidden, n_output)
-
